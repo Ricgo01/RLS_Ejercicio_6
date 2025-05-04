@@ -28,7 +28,6 @@ INSERT INTO cupones (id, tenant_id, codigo, tipo_descuento, valor, fecha_inicio,
 
 -- 5. Productos
 INSERT INTO productos (id, tenant_id, categoria_id, nombre, descripcion, precio, stock) VALUES
-  -- Tenant 1
   (1, 1, 1, 'Televisor 55"', 'Smart TV 4K UHD', 499.99,  25),
   (2, 1, 1, 'Smartphone X',  '128GB, 6GB RAM',   299.99, 100),
   (3, 1, 1, 'Laptop Pro',    'i5, 8GB RAM, 256GB SSD', 699.99, 50),
